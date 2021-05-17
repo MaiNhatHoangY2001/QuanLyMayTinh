@@ -14,39 +14,105 @@
   <body>
     <div class="container">
       <nav class="navbar navbar-light">
-        <div class="navbar-brand">
-          <a href="#HOME" style="text-decoration: none; color: black">
-            <b>
-              <i><p>HoangLongVN</p></i>
-            </b>
-          </a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li><a href="#PRODUCT" style="color: black">PRODUCT</a></li>
-          <li><a href="#SALE" style="color: black">SALE</a></li>
-          <li><a href="#HOT" style="color: black">HOT</a></li>
-          <li><a href="#NEWS" style="color: black">NEWS</a></li>
-        </ul>
-        <form action="" class="navbar-form navbar-right">
-          <div class="input-group">
-            <input
-              type="text"
-              name="search"
-              id="txtSearch"
-              placeholder="Tìm kiếm"
-              class="form-control"
-            />
-            <div class="input-group-btn">
-              <button class="btn btn-default">
-                <i class="glyphicon glyphicon-search"></i>
-              </button>
-            </div>
-          </div>
-          <button class="btn btn-default">
-            <i class="glyphicon glyphicon-log-in"></i>
-            Đăng nhập
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle btn"
+            data-toggle="collapse"
+            data-target="#navbar"
+            style="background-color: rgba(128, 128, 128, 0.082)"
+          >
+            <span class="icon-bar label-default"></span>
+            <span class="icon-bar label-default"></span>
+            <span class="icon-bar label-default"></span>
           </button>
-        </form>
+          <div class="navbar-brand">
+            <a href="#HOME" style="text-decoration: none; color: black">
+              <b>
+                <i><p>HoangLongVN</p></i>
+              </b>
+            </a>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a
+                href="#PRODUCT"
+                style="color: black"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                >PRODUCT
+              </a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a href="#PC" tabindex="-1">PC </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="nav-submenu">
+                        <p style="text-align: center"><b>PC GAMING</b></p>
+                        <p><a href="#">PC Gaming Tầm Trung</a></p>
+                        <p><a href="#">PC Gaming Cao Cấp</a></p>
+                        <p><a href="#">PC Gaming Siêu Cao Cấp</a></p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="nav-submenu">
+                        <p style="text-align: center"><b>PC Văn Phòng</b></p>
+                        <p><a href="">Mini PC nhỏ gọn</a></p>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="dropdown-submenu">
+                  <a href="#LAPTOP" tabindex="0">Laptop</a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="nav-submenu">
+                        <p style="text-align: center"><b>Laptop Gaming</b></p>
+                        <p><a href="#">Laptop Gaming Tầm Trung</a></p>
+                        <p><a href="#">Laptop Gaming Cao Cấp</a></p>
+                        <p><a href="#">Laptop Gaming Siêu Cao Cấp</a></p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="nav-submenu">
+                        <p style="text-align: center">
+                          <b>Laptop Văn Phòng</b>
+                        </p>
+                        <p><a href="">LapTop hiệu năng cao</a></p>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#SALE" style="color: black">SALE</a></li>
+            <li><a href="#HOT" style="color: black">HOT</a></li>
+            <li><a href="#NEWS" style="color: black">NEWS</a></li>
+          </ul>
+          <form action="" class="navbar-form navbar-right">
+            <div class="input-group">
+              <input
+                type="text"
+                name="search"
+                id="txtSearch"
+                placeholder="Tìm kiếm"
+                class="form-control"
+              />
+              <div class="input-group-btn">
+                <button class="btn btn-default">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+            <button class="btn btn-default">
+              <i class="glyphicon glyphicon-log-in"></i>
+              Đăng nhập
+            </button>
+          </form>
+        </div>
       </nav>
       <section>
         <div class="row">
@@ -130,16 +196,19 @@
         </div>
         <div class="row">
           <div class="col-lg-6" style="padding: 0">
-            <a href="#"><img src="../img/hinh6.png" alt="" width="585" height="440"/></a>
+            <a href="#"
+              ><img src="../img/hinh6.png" alt="" width="585" height="440"
+            /></a>
           </div>
           <div class="col-lg-6" style="padding: 0">
-            <a href="#"><img src="../img/hinh7.png" alt="" width="585" height="440"/></a>
+            <a href="#"
+              ><img src="../img/hinh7.png" alt="" width="585" height="440"
+            /></a>
           </div>
         </div>
-        
       </section>
-      
-      <hr>
+
+      <hr />
       <footer>
         <div class="row">
           <div class="col-lg-4">
