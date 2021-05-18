@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Đăng nhập</title>
     <link rel="shortcut icon" href="../icon/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <script src="../js/jquery-3.6.0.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/Default.css" />
+    <link rel="stylesheet" href="../css/Login.css" />
   </head>
   <body>
     <div class="container">
@@ -126,7 +127,7 @@
                 id="txtSearch"
                 placeholder="Tìm kiếm"
                 class="form-control"
-                style="width: 250px;"
+                style="width: 250px"
               />
               <div class="input-group-btn">
                 <button class="btn btn-default">
@@ -137,26 +138,50 @@
           </form>
         </div>
       </nav>
-      <section>
-        <!-- some code here
-      
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-     -->
+      <section">
+        <div class="row" >
+          <div class="col-lg-12">
+            <div class="customer-login">
+              <form action="Home.html">
+                <h1 style="text-align: center">Đăng nhập</h1>
+                <br />
+                <div class="input-group">
+                  <div class="input-group-addon">
+                    <i class="glyphicon glyphicon-envelope"></i>
+                  </div>
+                  <input
+                    type="email"
+                    name="email"
+                    id="txtEmail"
+                    class="text form-control"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <br />
+                <div class="input-group">
+                  <div class="input-group-addon">
+                    <i class="glyphicon glyphicon-lock"></i>
+                  </div>
+                  <input
+                    type="password"
+                    name="pass"
+                    id="txtPass"
+                    class="text form-control"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+                <br />
+                <button class="btn btn-block" type="submit" style="margin-bottom: 5px;">Đăng Nhập</button>
+                <p>
+                  Chưa có tài khoản? hãy<a href="dangKy.html"> Đăng ký </a>ngay bây giờ để
+                  hưởng ưu đãi tốt nhất
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
       <hr />
       <footer>
