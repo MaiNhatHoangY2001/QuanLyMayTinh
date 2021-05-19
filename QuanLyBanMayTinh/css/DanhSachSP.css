@@ -1,0 +1,59 @@
+.tab {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tab:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+.tabbed {
+    margin: 50px;
+}
+.table{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 5px;
+ margin-top: 100px;
+}
+.computer{
+    width: 245px;
+    margin: 5px;
+    background-color: #8E0C0C;
+    text-align: center;
+}
+.computer p{
+    margin-bottom: 0;
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+.computer img{
+    width: 245px;
+    height: 235px;
+}
+section button span{
+    color: red;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+    margin-bottom: 0;
+}
