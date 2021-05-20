@@ -3,7 +3,7 @@ section{
     padding-bottom: 100px;
 }
 
-.row p {
+.col-xs-12> p {
     text-align: left;
     color: white;
     margin-bottom: 16px;
@@ -41,9 +41,7 @@ section{
     content: "-";
     padding-right: 16px;
     color: white;
-  }
-
-
+}
 
 .dsPC{
     background-color: #413f3f7a;
