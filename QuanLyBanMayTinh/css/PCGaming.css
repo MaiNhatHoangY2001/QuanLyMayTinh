@@ -1,0 +1,38 @@
+section{
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.dsPCSieuCaoCap{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.table{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pc{
+    width: 50%;
+    border: 0.1px solid red;
+}
+
+.pc:hover {
+    border: 5px solid red;
+}
+
+.pc .gia{
+    width: 100%;
+    height: 60px;
+    background-color: #4C4848;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.pc img {
+    width: 100%;
+}

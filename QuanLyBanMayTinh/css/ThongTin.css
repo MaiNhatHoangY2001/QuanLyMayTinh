@@ -1,0 +1,82 @@
+section{
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.row p {
+    text-align: left;
+    color: white;
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+.DatHang{
+    padding:8px 16px; 
+    margin-bottom: 32px; 
+    margin-left: 32px;
+    margin-top: 16px;
+    float: left; 
+    background-color: red; 
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.NoiDung {
+    text-align: left;
+    color: white ;
+}
+
+.NoiDung ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+  
+.NoiDungli { 
+    padding-left: 16px; 
+}
+
+.NoiDung li::before {
+    content: "-";
+    padding-right: 16px;
+    color: white;
+  }
+
+
+
+.dsPC{
+    background-color: #413f3f7a;
+    margin: 0 auto;
+    width: 100%;
+}
+.table{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pc{
+    width: 35%;
+    margin-left: 116px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.pc:hover {
+    border: 5px solid #413f3f7a;
+}
+
+.pc img{
+    width: 100%;
+}
+
+.gia {
+    height: 60px;
+    background-color: red;
+}
+
+.gia a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
