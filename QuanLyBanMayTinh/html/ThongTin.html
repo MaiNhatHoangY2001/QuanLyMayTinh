@@ -11,6 +11,13 @@
     <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../css/Default.css" />
     <link rel="stylesheet" href="../css/ThongTin.css" />
+    <script>
+      $(document).ready(function (e) {
+        $("#btnDH").click(function () {
+          alert("Bạn đã đặc hàng thành công");
+        });
+      });
+    </script>
   </head>
 
   <body>
@@ -204,7 +211,7 @@
             <p style="margin-bottom: 0; color: red; font-size: 20px">
               Giá KM: 9,290,000₫
             </p>
-            <button class="DatHang">Đặt Hàng</button>
+            <button class="DatHang" id="btnDH">Đặt Hàng</button>
           </div>
         </div>
 

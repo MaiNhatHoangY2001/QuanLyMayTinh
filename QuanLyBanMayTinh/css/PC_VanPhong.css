@@ -15,22 +15,29 @@ section {
     display: flex;
     flex-wrap: wrap;
 }
-.pc{
-    width: 49%;
+
+.pcd{
+    width: 45%;
 }
 
-.pc:hover {
+.pcd img {
+    width: 100%;
+}
+
+.pc{
+    width: 25%;
+}
+
+.pc:hover, .pcd:hover {
     border: 5px solid #5DC1ED;
     border-radius: 20px;
 }
+
 .pc img{
     width: 100%;
 }
 
-.PC_NhoGon{
-    margin: 0 auto;
-    width: 800px;
-}
+
 
 
 
